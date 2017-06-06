@@ -52,13 +52,13 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 #کد نصب بوت
 cd $HOME
-git clone https://github.com/TeleSudo/TTabchi.git
-cd TTabchi
+git clone https://github.com/amoashi/tab.git
+cd tab
 git clone --recursive https://github.com/janlou/tg.git
 cd tg
 ./configure && make
 cd
-cd TTabchi
+cd tab
 chmod +x launch.sh
 ./launch.sh
 
